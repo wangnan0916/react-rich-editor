@@ -1,0 +1,14 @@
+.editor-container {
+	@apply w-full;
+}
+
+.editor .tiptap {
+  width: 600px;
+	min-height: 600px;
+	@apply border
+    outline-none
+    m-auto
+    p-2
+    rounded-md
+    focus:shadow-sm;
+}

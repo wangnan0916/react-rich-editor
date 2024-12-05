@@ -1,0 +1,31 @@
+.react-component.inline {
+	@apply mx-1 px-1 break-all;
+}
+.react-component.block {
+	@apply my-2;
+}
+
+.react-component {
+	@apply border
+    rounded-sm
+    shadow-sm
+    transition-all
+    duration-200
+    ease-in-out
+    bg-transparent
+    relative;
+}
+
+.react-component.active,
+.react-component:focus,
+.react-component:hover {
+	@apply outline
+    outline-2
+    outline-blue-500
+    border-transparent;
+}
+
+.react-component.active .node-toolbar,
+.react-component:focus .node-toolbar {
+	@apply visible opacity-100;
+}
